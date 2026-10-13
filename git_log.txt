@@ -1,0 +1,11 @@
+*   4eb94a9 Resueltos conflictos entre rama-cuerpo y rama-footer
+|\  
+| * 67af922 footer con formulario, enlaces y minilogo
+* | c4608fc Resueltos conflictos entre rama-cuerpo
+* | 29d3695 historias y video grupos
+|/  
+* 67edcbc Añade el pie de página
+* 456b08b Mejora los estilos del contenido
+* 40f1412 Corrige un error de staging y actualiza los estilos
+* 734be06 Añade contenido a la página principal
+* 0243263 Crea la estructura inicial del proyecto

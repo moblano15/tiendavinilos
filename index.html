@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1a1412">
+
+    <title>VINYL RECORDS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Menú lateral -->
+    <aside class="menu">
+        <h2>Vinyl<span>.</span></h2>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#oferta">Oferta</a>
+            <a href="#nosotros">Sobre nosotros</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#relevantes">Relevantes</a>
+            <a href="#historias">Historias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </aside>
+
+    <div class="page">
+
+        <header>
+            <a class="wordmark" href="#inicio">Vinyl Records<span>.</span></a>
+            <span class="header-note">Tienda de vinilos · Desde 1986</span>
+        </header>
+
+        <main id="inicio">
+
+            <!-- Sección principal -->
+            <section class="hero">
+
+                <div class="intro">
+                    <span class="eyebrow">
+                        Descubre · Escucha · Colecciona
+                    </span>
+
+                    <h1>
+                        Tus especialistas en vinilo
+                     </h1>
+
+                    <p class="welcome">
+                        Sumergite en una selección exclusiva de vinilos
+                        de colección y disfruta de la música en su estado
+                        más puro y auténtico.
+                    </p>
+
+                    <a class="catalog-link" href="#catalogo">
+                        Ver catálogo
+                    </a>
+                </div>
+
+                <div class="record-art">
+                    <img
+                        src="https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=1000&q=85"
+                        alt="Disco de vinilo negro sobre un tocadiscos"
+                    >
+                </div>
+
+            </section>
+
+            <section class="offer-section" id="oferta" aria-labelledby="offer-title">
+                <div class="offer-image">
+                    <img
+                        src="img/BrunoMars.webp"
+                        alt="Imagen de Bruno Mars, artista de la oferta"
+                    >
+                </div>
+
+                <div class="offer-copy">
+                    <span class="eyebrow">Oferta especial · Edición de colección</span>
+                    <h2 id="offer-title">Bruno Mars en vinilo</h2>
+                    <p class="offer-price">39,90 <span>€</span></p>
+                    <p class="offer-description">
+                        El sonido atmosférico de Bruno Mars, en formato vinilo.<br>
+                        Una pieza especial para disfrutar de cada detalle de su música.<br>
+                        Ideal para completar tu colección o sorprender a otro fan.<br>
+                        Disponible en nuestra tienda por tiempo limitado.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Sobre nosotros -->
+            <section class="about" id="nosotros">
+
+                <h2>Sobre nosotros</h2>
+
+                <p>
+                    Fundada en 1986, <strong>Vinyl Records</strong> lleva
+                     durante casi cuatro décadas vendiendo vinilos de todas las
+                     categorías. Desde los más clásicos a los más actuales. Tus vinilos, en un solo lugar.
+                </p>
+
+            </section>
+
+            <!-- Catálogo -->
+            <section class="catalogo" id="catalogo">
+
+                <h2>Catálogo</h2>
+
+                <p class="catalogo-intro">
+                    Elige un género y encuentra tu próximo disco.
+                </p>
+
+                <div class="grid">
+
+                    <article class="genero-card">
+                        <div class="portada c1" aria-label="Portada de rock">
+                            <img src="img/guitarra-electrica.webp" alt="Rock">
+                        </div>
+                        <h3>Rock</h3>
+                        <p>
+                            Guitarras, directos y clásicos que nunca pasan de moda.
+                        </p>
+                        <span class="cantidad">120 discos</span>
+                        <button>Ver discos</button>
+                    </article>
+
+                    <article class="genero-card">
+                        <div class="portada c2" aria-label="Portada de jazz">
+                            <img src="img/jazz.jpg" alt="Jazz">
+                        </div>
+                        <h3>Jazz</h3>
+                        <p>
+                            Improvisación y sonido cálido, ideal para una tarde tranquila.
+                        </p>
+                        <span class="cantidad">85 discos</span>
+                        <button>Ver discos</button>
+                    </article>
+
+                    <article class="genero-card">
+                        <div class="portada c3" aria-label="Portada de folk">
+                            <img src="img/folk.webp" alt="Folk">
+                        </div>
+                        <h3>Folk</h3>
+                        <p>
+                            Voces y guitarras acústicas con historias cercanas.
+                        </p>
+                        <span class="cantidad">60 discos</span>
+                        <button>Ver discos</button>
+                    </article>
+
+                    <article class="genero-card">
+                        <div class="portada c4" aria-label="Portada de soul">
+                            <img src="img/soul.avif" alt="Soul">
+                        </div>
+                        <h3>Soul</h3>
+                        <p>
+                            Ritmo, emoción y grandes voces de todas las épocas.
+                        </p>
+                        <span class="cantidad">70 discos</span>
+                        <button>Ver discos</button>
+                    </article>
+
+                    <article class="genero-card">
+                        <div class="portada c5" aria-label="Portada de electrónica">
+                            <img src="img/electronica.jpg" alt="Electrónica">
+                        </div>
+                        <h3>Electrónica</h3>
+                        <p>
+                            Sintetizadores y ritmos para bailar o concentrarte.
+                        </p>
+                        <span class="cantidad">95 discos</span>
+                        <button>Ver discos</button>
+                    </article>
+
+                    <article class="genero-card">
+                        <div class="portada c6" aria-label="Portada de clásica">
+                            <img src="img/clasica.jpg" alt="Clásica">
+                        </div>
+                        <h3>Clásica</h3>
+                        <p>
+                            Orquestas y solistas grabados para escuchar sin prisa.
+                        </p>
+                        <span class="cantidad">50 discos</span>
+                        <button>Ver discos</button>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="spotlight" id="relevantes" aria-label="Selección visual de discos destacados">
+                <div class="spotlight-head">
+                    <span class="eyebrow">Selección especial</span>
+                    <h2>Artistas destacados</h2>
+                </div>
+
+                <div class="spotlight-carousel">
+                    <div class="spotlight-slides" aria-live="polite">
+                        <article class="spotlight-slide is-active">
+                            <div class="spotlight-disc">
+                                <img src="img/theneighbourhood.webp" alt="Imagen ilustrativa de The Neighbourhood">
+                            </div>
+                            <div class="spotlight-copy">
+                                <span class="badge">Rock alternativo</span>
+                                <h3>The Neighbourhood</h3>
+                                <p>Banda estadounidense de rock alternativo conocida por su sonido atmosférico, guitarras envolventes y estética en blanco y negro.</p>
+                                <button class="discography-button" type="button">Ver discografía</button>
+                            </div>
+                        </article>
+
+                        <article class="spotlight-slide" hidden>
+                            <div class="spotlight-disc">
+                                <img src="img/theweeknd.webp" alt="Imagen ilustrativa de The Weeknd">
+                            </div>
+                            <div class="spotlight-copy">
+                                <span class="badge">R&amp;B · Pop</span>
+                                <h3>The Weeknd</h3>
+                                <p>Artista canadiense que combina R&amp;B, pop y sonidos electrónicos, con una identidad visual y musical inconfundible.</p>
+                                <button class="discography-button" type="button">Ver discografía</button>
+                            </div>
+                        </article>
+
+                        <article class="spotlight-slide" hidden>
+                            <div class="spotlight-disc">
+                                <img src="img/travisscott.jpg" alt="Imagen ilustrativa de Travis Scott">
+                            </div>
+                            <div class="spotlight-copy">
+                                <span class="badge">Hip-hop</span>
+                                <h3>Travis Scott</h3>
+                                <p>Rapero y productor estadounidense reconocido por sus paisajes sonoros expansivos y sus directos llenos de energía.</p>
+                                <button class="discography-button" type="button">Ver discografía</button>
+                            </div>
+                        </article>
+
+                        <article class="spotlight-slide" hidden>
+                            <div class="spotlight-disc">
+                                <img src="img/chaseatlantic.jpg" alt="Imagen ilustrativa de Chase Atlantic">
+                            </div>
+                            <div class="spotlight-copy">
+                                <span class="badge">Pop alternativo</span>
+                                <h3>Chase Atlantic</h3>
+                                <p>Trío australiano que mezcla pop alternativo, R&amp;B y elementos de rock con un sonido oscuro y contemporáneo.</p>
+                                <button class="discography-button" type="button">Ver discografía</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="spotlight-controls">
+                        <button class="spotlight-arrow" type="button" data-direction="-1" aria-label="Ver artista anterior">←</button>
+                        <span class="spotlight-counter" aria-live="polite">01 / 04</span>
+                        <button class="spotlight-arrow" type="button" data-direction="1" aria-label="Ver artista siguiente">→</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Historias -->
+            <section class="historias" id="historias">
+
+                <div class="historias-header">
+                    <span class="eyebrow">Historias del vinilo</span>
+                    <h2>La historia detrás de la música</h2>
+                    <p>
+                        Descubre los artistas y álbumes que han dejado huella
+                        en la historia de la música.
+                    </p>
+                </div>
+
+                <article class="historia-card">
+
+                    <div class="historia-imagen">
+                        <img
+                            src="img/BrunoMars.webp" width="80px"
+                            alt="Bruno Mars"
+                        >
+                    </div>
+
+                    <div class="historia-contenido">
+                        <span class="eyebrow">Artista destacado</span>
+
+                        <h3>Bruno Mars</h3>
+                        <h4>Doo-Wops &amp; Hooligans · 2010</h4>
+
+                        <p>
+                            Bruno Mars, cuyo nombre real es Peter Gene Hernández,
+                            nació el 8 de octubre de 1985 en Honolulu, Hawái.
+                            Desde pequeño estuvo rodeado de música y desarrolló
+                            su talento como cantante y músico.
+                        </p>
+
+                        <p>
+                            En 2010 publicó su primer álbum de estudio,
+                            <em>Doo-Wops &amp; Hooligans</em>, que alcanzó
+                            un gran éxito internacional. El disco combina
+                            pop, R&amp;B y otros sonidos, con melodías pegadizas
+                            y letras románticas.
+                        </p>
+
+                        <p>
+                            Entre sus canciones más populares están
+                            <em>Just the Way You Are</em>, <em>Grenade</em>,
+                            <em>The Lazy Song</em> y <em>Marry You</em>.
+                            Este álbum fue fundamental para dar a conocer
+                            al artista en todo el mundo.
+                        </p>
+
+                        <p>
+                            En Vinyl Records destacamos este disco por su
+                            personalidad musical y por ser una opción especial
+                            para los coleccionistas de vinilos.
+                        </p>
+                    </div>
+
+                    <div class="historia-video">
+                        <h3>Descubre su música</h3>
+
+                        <div class="video-container">
+                            <iframe
+                                src="./brunomars.mp4"
+                                title="Vídeo musical de Bruno Mars"
+                                loading="lazy"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <a
+                            class="catalog-link"
+                            href="https://www.youtube.com/watch?v=fXw0jcYbqdo&list=RDfXw0jcYbqdo&start_radio=1"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Ver vídeo en YouTube
+                        </a>
+                    </div>
+
+                </article>
+            </section>
+
+            <section class="contacto" id="contacto">
+                <div class="contacto-header">
+                    <span class="eyebrow">Contacto</span>
+                    <h2>Hablemos de música</h2>
+                </div>
+
+                <div class="contacto-grid">
+                    <article class="contacto-card">
+                        <h3>Visítanos</h3>
+                        <p>Calle del Mar 24<br>Valencia, España</p>
+                    </article>
+
+                    <article class="contacto-card">
+                        <h3>Escríbenos</h3>
+                        <p>hola@vinylrecords.es<br>+34 611 234 567</p>
+                    </article>
+
+                    <article class="contacto-card">
+                        <h3>Horario</h3>
+                        <p>Lunes a sábado<br>10:00 - 20:00</p>
+                    </article>
+                </div>
+            </section>
+
+        </main>
+        <footer class="site-footer">
+            <div class="footer-container">
+                
+                <!-- Columna 1: Logo y descripción -->
+                <div class="footer-col footer-brand-col">
+                    <h2 class="footer-logo">Vinyl<span>.</span></h2>
+                    <p class="footer-description">
+                        El sonido de siempre, la pasión de cada día. Descubre vinilos únicos y encuentra tu próxima historia musical con nosotros.
+                    </p>
+                    <div class="footer-badge">
+                        v<span>.</span>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Explora -->
+                <div class="footer-col">
+                    <h3>Explora</h3>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Oferta especial</a></li>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Catálogo</a></li>
+                        <li><a href="#">Artistas destacados</a></li>
+                        <li><a href="#">Historias</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Síguenos -->
+                <div class="footer-col">
+                    <h3>Síguenos</h3>
+                    <p class="social-subtitle">La música también se comparte.</p>
+                    <ul>
+                        <li><a href="#" target="_blank">Instagram ↗</a></li>
+                        <li><a href="#" target="_blank">TikTok ↗</a></li>
+                        <li><a href="#" target="_blank">YouTube ↗</a></li>
+                        <li><a href="#" target="_blank">Facebook ↗</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Nota para tus oídos (Formulario) -->
+                <div class="footer-col footer-newsletter-col">
+                    <h3>Una nota para tus oídos</h3>
+                    <p>Suscríbete para recibir novedades, ofertas especiales y nuevos lanzamientos en vinilo.</p>
+                    
+                    <form class="newsletter-form" onsubmit="event.preventDefault();">
+                        <label for="email-input">Tu correo electrónico</label>
+                        <div class="input-group">
+                            <input type="email" id="email-input" placeholder="tu@email.com" required>
+                            <button type="submit" aria-label="Suscribirse">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </button>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="privacy-check" required>
+                            <label for="privacy-check">Acepto recibir novedades y he leído la política de privacidad.</label>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </footer>
+        <footer>
+            <span>Patrocinado por Prime Systems</span>
+            <span>Colaboración con SoundWave</span>
+        </footer>
+
+    </div>
+
+    <script>
+        const spotlight = document.querySelector(".spotlight");
+        const slides = [...spotlight.querySelectorAll(".spotlight-slide")];
+        const counter = spotlight.querySelector(".spotlight-counter");
+        let activeSlide = 0;
+
+        spotlight.querySelectorAll(".spotlight-arrow").forEach((button) => {
+            button.addEventListener("click", () => {
+                slides[activeSlide].hidden = true;
+                activeSlide = (activeSlide + Number(button.dataset.direction) + slides.length) % slides.length;
+                slides[activeSlide].hidden = false;
+                slides[activeSlide].classList.remove("is-active");
+                void slides[activeSlide].offsetWidth;
+                slides[activeSlide].classList.add("is-active");
+                counter.textContent = `${String(activeSlide + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
+            });
+        });
+    </script>
+</body>
+</html>
